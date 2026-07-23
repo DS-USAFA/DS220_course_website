@@ -1,0 +1,19 @@
+---
+title: "Data-Driven Statistics with AI"
+---
+
+## Welcome!
+
+This is the course website for the Fall 2026 iteration of DataSci 220, Data-Driven Statistics.
+
+We've created this website to hold important course information including the course schedule, reading assignments and other graded events, and information for the semester-long project. This information will also be posted to the course Teams page, but we hope this will serve as an easy-to-access hub for this course.
+
+### Links
+
+You can find the course letter/course materials on the [About this course](about.qmd) page.
+
+You can find the course schedule with daily reading assignments and other graded events on the [Course schedule](schedule.qmd) page.
+
+You can find information about the semester-long project on the [Course project](course_project.qmd) page.
+
+You can find answers to Frequently Asked Questions on the [FAQs](faqs.qmd) page.
