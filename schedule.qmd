@@ -2,9 +2,12 @@
 title: "Course Schedule"
 ---
 
-This page includes schedule for the Fall 2026 semester, along with all the assigned readings and graded events.
+This page includes the course schedule for the Fall 2026 semester, along with all the assigned readings and graded events.
 
-### Assigned Readings
+::: {.callout-note collapse="true"}
+## Accessing the Assigned Readings
+
+The assigned readings can be accessed via the links below or in the Course Letter.
 
 *OpenIntro Statistics* and *Introduction to Modern Statistics* are both available as a free e-book. The readings for this course will come from four digitally available textbooks, from the links in the course letter, also provided below:
 
@@ -15,6 +18,7 @@ This page includes schedule for the Fall 2026 semester, along with all the assig
 -   **Chester Ismay, Albert Y. Kim, and Arturo Valdivia**. *Modern Dive (v2).* Free e-book available at [https://moderndive.com/v2/](https://moderndive.com/v2/){.uri target="_blank"}.
 
 -   **Bradley Warner, Brianna Hitt, and Ken Horton**. *Computational Probability and Statistics*. Free e-book available at [https://ds-usafa.github.io/Quarto-Book/](https://ds-usafa.github.io/Quarto-Book/){.uri target="_blank"}.
+:::
 
  
 
