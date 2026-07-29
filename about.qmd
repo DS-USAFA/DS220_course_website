@@ -8,31 +8,31 @@ The instructors for this course are listed below. Click on each instructor's nam
 
 -   [Dr. Brianna Hitt](DFMS_Hitt_Slide.pdf){target="_blank"} (course director), Office 6D-140
 
--   [Dr. Hauschild-Eastman](DFMS_Hauschild-Eastman_Slide.pdf) (co-course director), Office 6D-186
+-   [Dr. Jessica Hauschild-Eastman](DFMS_Hauschild-Eastman_Slide.pdf){target="_blank"} (co-course director), Office 6D-186
 
 -   [Dr. Beth Schaubroeck](DFMS_Schaubroeck_Slide.pdf){target="_blank"}, Office 6D-112
 
 -   [Lt Col Rob Newton](DFMS_Newton_Slide.pdf){target="_blank"}, Office 6D-138
 
--   Maj (S) Matt Shisler, Office 6D-206
+-   [Capt Matthew Shisler](DFMS_Shisler_Slide.pdf){target="_blank"} (assistant course director), Office 6D-206
 
--   [Dr. Calli Holaway](DFMS_Holaway_Slide.pdf), Office 4K25C (HCM/CETL Offices, near Language Learning Center)
+-   [Dr. Calli Holaway](DFMS_Holaway_Slide.pdf){target="_blank"}, Office 4K25C (HCM/CETL Offices, near Language Learning Center)
 
--   Lt Col Isaiah Warnke, Office 6D-220
+-   [Lt Col Isaiah Warnke](DFMS_Warnke_Slide.pdf){target="_blank"}, Office 6D-220
 
--   Maj Megan Muniz, Office 6D-170
+-   [Maj Megan Muniz](DFMS_Muniz_Slide.pdf){target="_blank"}, Office 6D-170
 
--   Maj Phil Cho, Office 6D-164
+-   [Maj Philip Cho](DFMS_Cho_Slide.pdf){target="_blank"}, Office 6D-164
 
--   MSgt Andrew Swanson, Office 6D-212
+-   [MSgt Andrew Swanson](DFMS_Swanson_Slide.pdf){target="_blank"}, Office 6D-212
 
 ## Course Letter
 
-Below we highlight sections from the DataSci 220 Fall 2026 course letter. All cadets are responsible for reading the **full version of the course letter**.
+Below we highlight sections from the DataSci 220 Fall 2026 course letter. All cadets are responsible for reading the **full version of the course letter**, also available on Teams.
 
 ### Introduction
 
-Welcome to Math 300Z/356Z, *Data-Driven Statistics with AI*. This course is designed to provide you with statistical, mathematical and computational tools to answer questions from data by providing a solid foundation in probability and a strong introduction to statistical and descriptive modeling. This is the third iteration of this course, which will become the new core statistics and data science course for all cadets at USAFA starting in Fall 2026.
+Welcome to DataSci 220, *Data-Driven Statistics with AI*. This course is designed to provide you with statistical, mathematical and computational tools to answer questions from data by providing a solid foundation in probability and a strong introduction to statistical and descriptive modeling. This is the new core statistics and data science course for all cadets at USAFA.
 
 ***Course Identity:*** You are now, just by being here, a statistician and a data-driven decision maker!
 
@@ -50,15 +50,11 @@ The learning goals for this course are to use computational and mathematical sta
 
 -   Detail the basics of the machine learning pipeline, specifically how it relates to linear regression.
 
-### Updated Course
-
-This course in data science and statistics is replacing the current four courses in the core fulfilling the statistical reasoning requirement. This course aims to provide a common experience for cadets while meeting The Department of the Air Force’s articulated several priorities for Airmen and Guardians regarding data acumen. As such, this course will meet all graduation requirements for your major and is designed with your future as officers keenly in mind.
-
 ### Course Materials
 
-We will make extensive use of computational methods which depend heavily on software. We will be using free software called R through a web-based platform called Posit Cloud. Grades and some assignments will be available in Gradescope. Course materials and course communications will be in Microsoft Teams. We prefer Teams as the primary method of communication to instructors.
+We will make extensive use of computational methods which depend heavily on software. We will be using free software called R through a web-based platform called Posit Cloud. All assignments and grades will be available in Gradescope. Course materials and communications will be in Microsoft Teams, which is the preferred method of communication to instructors.
 
-In addition to assigned course readings and activities, we will utilize Generative AI tools such as ChatGPT and NotebookLM to help us understand concepts, generate and understand code, and interpret models and their output throughout the semester. To do so effectively, we must learn to write and iterate prompts and to validate responses from GenAI tools. These tools will be authorized resources for in-class work and projects, unless otherwise stated. We will not be using GenAI tools for GRs because you need to have a foundation in the course concepts, coding and communicating data analysis.
+In addition to assigned course readings and activities, we will utilize Generative AI tools such as NotebookLM and ChatGPT to help us understand concepts, generate and understand code, and interpret models and their output throughout the semester.
 
 **Course Text**.  The readings for this course will come from four digitally available textbooks:
 
@@ -72,19 +68,35 @@ In addition to assigned course readings and activities, we will utilize Generati
 
 -   *Additional readings provided by the instructor.*
 
+**Install/Setup:** Prior to the start of class, please complete the following:
+
+-   Joint the "DS220 Fall26" workspace on Posit Cloud and create a paid account.
+
+-   Make sure you can see the DataSci 220 course in Gradescope.
+
+-   Create an account for Gemini Notebook (NotebookLM) and any other GenAI tools you plan to use in this course.
+
+### Daily Course Rhythm
+
+Each lesson of this course will have a pre-flight (reading assignment with an interactive reading guide). We expect you to be conversant with the assigned readings prior to each class. The assigned readings and the associated reading guides are important learning assets, so use them to prepare for class. This course requires regular and active participation from every student.
+
+Bring your computer to every class. For class time to be beneficial, you must be prepared and participate in each lesson. In class, after a short lecture, we will be working on the daily homework (either individually or in small groups). After class, you should review your notes from the day, work on the homework problems, and come to EI to ask questions.
+
 ### Graded Events
 
-This course uses standards-based grading. Your final grade in this course will be based on how well you achieve 30 standards, which fall into one of three categories: 1) Core Competencies, 2) Application, and 3) Professional Development. The following are brief descriptions of the categories and associated graded events. More specific details will be provided at the time these assessments are administered.
+This course uses standards-based grading. Your final grade in this course will be based on how well you achieve 25 standards, which fall into one of three categories: 1) Core Competencies, 2) Application, and 3) Professional Development. The following are brief descriptions of the categories and associated graded events. More specific details will be provided at the time these assessments are administered.
 
-1.  **Core Competencies.** There are 12 standards that every student leaving this course should have proficiency with. Students will have at least 2 opportunities to demonstrate their understanding of each standard during Graded Reviews (GRs). There are four GRs and a final exam. Each standard is assessed independently using a standards-based grading approach.
+1.  **Core Competencies.** There are 12 standards that every student leaving this course should have proficiency with. Students will demonstrate their understanding of each standard during Graded Reviews (GRs). There are four GRs and a final exam. Each standard is assessed independently using a standards-based grading approach.
 
-2.  **Application.** There are three components in the application category: i) specialty concepts, ii) semester-long group project, and iii) homework assignments. The application category has 10 standards.
+2.  **Application.** There are three components in the application category: i) specialty concepts, ii) semester-long group project, and iii) homework assignments. The application category has 9 standards.
 
-3.  **Professional Development.** There are three components in this category: i) professional skills, ii) course participation, and iii) reflection. The professional development category has 8 standards.
+3.  **Professional Development.** There are two components in this category: i) pre-flights and ii) course participation. The professional development category has 4 standards.
+
+4.  **Final Exam.** There is a final written exam that covers all course material. There are no final exemptions for this course. However, a student may choose to complete as many (or as few) of the final exam questions as they wish.
 
 ### Proficiency Levels
 
-This course uses a contract grading system designed to reward mastery and professional growth. Your grade will be determined based on performance in 30 total standards across the three key areas. Each standard is evaluated on a four-level proficiency scale, where higher levels reflect deeper integration, judgment and communication – not just correctness.
+This course uses a contract grading system designed to reward mastery and professional growth. Your grade will be determined based on performance in 25 total standards across three key areas. Each standard is evaluated on a four-level proficiency scale, where higher levels reflect deeper integration, judgment and communication – not just correctness.
 
 -   **Exceptionally Qualified (EQ)** – The student understands the material deeply enough to teach it to others. This represents a different level of mastery – the ability to explain, critique, and guide others.
 
@@ -96,21 +108,15 @@ This course uses a contract grading system designed to reward mastery and profes
 
 -   **Cannot Be Assessed** – The student has provided incoherent or incomplete evidence of understanding.
 
-### Daily Course Rhythm
-
-Each lesson of this course will have a pre-class reading assignment with an interactive reading guide. We expect you to be conversant with the assigned readings prior to each class. The assigned readings and the associated reading guides are important learning assets, so use them to prepare for class. This course requires regular and active participation from every student.
-
-Bring your computer to every class. For class time to be beneficial, you must be prepared and participate in each lesson. In class, after a short (10-15 minute) mini-lecture, we will be working with the ideas from the readings in small groups to complete the GPsets. If time permits, we will transition to practice problems in the daily notetaker. After class, in addition to reviewing your own notes from the day, we recommend that you work on the practice problems in the notetakers and come to EI to ask questions. Remember that the homework questions are a selection of the practice problems in the notetakers, and it is strongly recommended that you complete the practice problems as close to their associated lesson as possible.
-
 ### Use of Artificial Intelligence/Large Language Models
 
-Unless otherwise stated, your authorized GenAI resources for all Math 300Z/356Z assignments completed outside of class are Level 4: Use of GenAI to co-create and/or revise work per the Dean's Guidance for Academically-related GenAI at USAFA. The authorized resources for all Math 300Z/356Z GRs will be Level 0: No use of GenAI because you need to have a foundation in the course concepts, coding and communicating data analysis.
+Unless otherwise stated, your authorized GenAI resources for all DataSci 220 assignments completed outside of class are Level 4: Use of GenAI to co-create and/or revise work per the Dean's Guidance for Academically-related GenAI at USAFA. The authorized resources for all DataSci 220 GRs will be Level 0: No use of GenAI because you need to have a foundation in the course concepts, coding and communicating data analysis.
 
 Please see the course letter for the full policy of use of AI tools in this course.
 
 #### Documentation of GenAI Usage
 
-When utilizing GenAI tools, your documentation statement MUST include the following five parts:
+When utilizing GenAI tools, your documentation statement MUST include the following:
 
 i.  The name of the GenAI tool (and version, when possible)
 
@@ -120,9 +126,14 @@ iii. What the GenAI tool provided you (a summary of the output)
 
 iv. How you altered the GenAI tool’s output (e.g., how you iterated on prompts or how you edited the response before using it) to be in line with Level 4: Use of GenAI to co-create and/or revise work
 
-v.  A full transcript (link or pdf file) of your interaction with GenAI tools
+v.  A full transcript (link or pdf file) of your interaction with GenAI tools. **NOTE: You MUST have an account for any GenAI tools you use in this course, so you can provide transcript links.**
 
 **Example**: I used ChatGPT to help write code for a scatterplot with a regression line. I asked: “How can I plot a scatterplot of height vs weight in R using ggplot2 and add a regression line?” ChatGPT gave me a full ggplot() code snippet. I edited the code to use my dataset name (cadet_data) and customized axis labels and colors. [https://chatgpt.com/share/6942d3ea-f350-8013-b0a5-55aac51ba119](https://chatgpt.com/share/6942d3ea-f350-8013-b0a5-55aac51ba119){target="_blank"}
+
+### Absent/Late Events
+
+Graded work must be submitted by the due date with proper documentation to receive full credit. Homework and specialty concepts submitted up to one lesson late receive a 20% penalty unless prior approval is granted. Pre-flights, online forms, and
+projects are not accepted after the deadline.
 
 ### Final Comments
 
