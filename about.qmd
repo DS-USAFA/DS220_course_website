@@ -26,6 +26,8 @@ The instructors for this course are listed below. Click on each instructor's nam
 
 -   [MSgt Andrew Swanson](DFMS_Swanson_Slide.pdf){target="_blank"}, Office 6D-212
 
+ 
+
 ## Course Letter
 
 Below we highlight sections from the DataSci 220 Fall 2026 course letter. All cadets are responsible for reading the **full version of the course letter**, also available on Teams.
@@ -132,8 +134,9 @@ v.  A full transcript (link or pdf file) of your interaction with GenAI tools. *
 
 ### Absent/Late Events
 
-Graded work must be submitted by the due date with proper documentation to receive full credit. Homework and specialty concepts submitted up to one lesson late receive a 20% penalty unless prior approval is granted. Pre-flights, online forms, and
-projects are not accepted after the deadline.
+Graded work must be submitted by the due date with proper documentation to receive full credit. Homework and specialty concepts submitted up to one lesson late receive a 20% penalty unless prior approval is granted. Pre-flights, online forms, and projects are not accepted after the deadline.
+
+Absences or late arrivals must be coordinated with your instructor in advance, when possible, and reported using the online form provided on Teams.
 
 ### Final Comments
 

@@ -2,9 +2,23 @@
 title: "Course Schedule" 
 ---
 
-This page includes schedule for the Spring 2026 semester, along with all the assigned readings and graded events.
+This page includes the course schedule for the Fall 2026 semester, along with all the assigned readings and graded events.
 
-*OpenIntro Statistics* and *Introduction to Modern Statistics* are both available as a free e-book. They can be downloaded from the links in the course letter, or they can be found in the course Teams page.
+::: {.callout-note collapse="true"}
+## Accessing the Assigned Readings
+
+The assigned readings can be accessed via the links below or in the Course Letter.
+
+*OpenIntro Statistics* and *Introduction to Modern Statistics* are both available as a free e-book. The readings for this course will come from four digitally available textbooks, from the links in the course letter, also provided below:
+
+-   **David Diez,** **Mine Cetinkaya-Rundel, and Christopher D. Barr.** OpenIntro Statistics, 4^th^ Edition. Free PDF available at [https://openintro.org/book/os/.](https://openintro.org/book/os/){target="_blank"}
+
+-   **Mine Cetinkaya-Rundel and Johanna Hardin**. *Introduction to Modern Statistics*, 2^nd^ Edition. Free web-native version available at [https://www.openintro-ims.netlify.app](https://www.openintro-ims.netlify.app){.uri target="_blank"} (may not work on MissionNet).
+
+-   **Chester Ismay, Albert Y. Kim, and Arturo Valdivia**. *Modern Dive (v2).* Free e-book available at [https://moderndive.com/v2/](https://moderndive.com/v2/){.uri target="_blank"}.
+
+-   **Bradley Warner, Brianna Hitt, and Ken Horton**. *Computational Probability and Statistics*. Free e-book available at [https://ds-usafa.github.io/Quarto-Book/](https://ds-usafa.github.io/Quarto-Book/){.uri target="_blank"}.
+:::
 
 ## Block 1: Probability Models
 
@@ -114,8 +128,6 @@ This page includes schedule for the Spring 2026 semester, along with all the ass
 |        |                                                  |     -   [Exploratory Data Analysis: 2 - Exploring numerical data](https://openintro.shinyapps.io/ims-02-explore-02/){target="_blank"}                                                                                                                                                                                                                          |                                |
 |        |                                                  |                                                                                                                                                                                                                                                                                                                                                                |                                |
 |        |                                                  | -   Reading Guide for Lesson 15 (Gradescope only, no NotebookLM)                                                                                                                                                                                                                                                                                               |                                |
-|        |                                                  |                                                                                                                                                                                                                                                                                                                                                                |                                |
-|        |                                                  |                                                                                                                                                                                                                                                                                                                                                                |                                |
 |        |                                                  |                                                                                                                                                                                                                                                                                                                                                                |                                |
 |        |                                                  | -   READ:                                                                                                                                                                                                                                                                                                                                                      |                                |
 |        |                                                  |                                                                                                                                                                                                                                                                                                                                                                |                                |

@@ -6,9 +6,10 @@ This page will contain answers to Frequently Asked Questions. Use the Table of C
 
  
 
-Many cadets have expressed excitement for the course, and shared tips from friends/peers on how to be successful in the course.
+::: {.callout-note collapse="true" icon="false"}
+## Positive Comments from Past Students
 
-## **Positive Things You've Heard**
+Many cadets have expressed excitement for the course, and shared tips from friends/peers on how to be successful in the course.
 
 > -   "I'm also skeptical of cadet cynicism affecting how people communicate the reality of this course, as I have on multiple occasions loved courses which others told me were terrible. I'm excited for the class overall and curious to see for myself what the grading system ends up being like"
 >
@@ -33,12 +34,10 @@ Many cadets have expressed excitement for the course, and shared tips from frien
 > -   "I haven't heard anything about it, going to just see how it goes for myself"
 
 Some of the cadets in the course haven't heard much about it yet, or are "excited" and feeling "positive" about the coming semester, the content of the course, or the move away from traditional points.
+:::
 
- 
-
-There were also some shared concerns.
-
-## **Grading System Challenges**
+::: {.callout-tip collapse="true" icon="false"}
+## What's the Deal with this Grading System?
 
 > This is by far the most frequently mentioned concern. Students have heard that the grading system is confusing, maybe frustrating, and subjective. Many reported hearing it was difficult to understand how to earn good grades. Some students heard that there was a lack of consistency in the grading, with "similar answers" earning a range of grades, and some heard it's difficult to track your letter grade throughout the course.
 
@@ -87,53 +86,87 @@ In Spring 2025, 52% of the course (40/77 cadets) earned an A or B. In Fall 2025,
 The grade distribution for the last three semesters are shown below.
 
 |  |  |
-|----|----|
-| ![](images/course_grades_spr26.png){width="417"} | ![](images/course_grades_fall25.png){width="358"} |
-| ![](images/course_grades_spr25.png){width="384"} |  |
+|------------------------------------|------------------------------------|
+| ![](images/course_grades_spr26.png){width="298"} | ![](images/course_grades_fall25.png){width="267"} |
+| ![](images/course_grades_spr25.png){width="287"} |  |
 
-No one ended up on academic probation at prog solely due to this course in past semesters. The Fs in past semester final grades represent students who did not complete numerous assignments and/or did not take advantage of the opportunity to reattempt core competency standards throughout the semester.
+: No one ended up on academic probation at prog solely due to this course in past semesters. The Ds and Fs in past semester final grades represent students who did not complete numerous assignments and/or did not take advantage of the opportunity to reattempt core competency standards throughout the semester and struggled with content all semester.
 
 Your final grade in this course is primarily based on your achievement of the 12 core competency standards. The professional development standards are largely completion based, and the application standards relate to homework, specialties, and the group project. These other categories can either "plus up" or "downgrade" your course grade, based on the amount of time and effort you put into the course assignments.
 
 ### **Grading Consistency**
 
 We did get feedback that some students compared answers on GR questions last semester and felt like the same answer resulted in different scores for different cadets. The main reason for this is differences in communication on GRs - communication is very important in statistics and there was a wide range on GRs. Apparent discrepancies in grades were almost always the result of correct/incorrect terminology or more/less effective communication in cadet answers.
+:::
 
- 
+::: {.callout-note collapse="true" icon="false"}
+## What are the Cutlines for HW and Reading Guide Scores?
 
-## **Workload and Difficulty of the course**
+### Reading Guides
 
-> While some heard the course was "not too bad", a significant number of students heard the course is "very interesting and challenging" and "relatively difficult" with a "heavy course load". Students expressed concern about "how much time outside of school this class will take up" and its overall workload. Additionally, one student wrote "I have heard that this classes medal system (or Q system), while less punishing, is way more time consuming than points based."
+There are 14 reading guides before prog (Lessons 1-16) and there are 21 reading guides after prog (Lessons 18-41). The cutlines for reading guide proficiency levels are provided below.
 
-### **Daily Battle Rhythm of the course**
+-   Completing 90% of reading guides will result in a Q1 score for the respective standard.
 
-We are asking you to complete daily pre-flights (interactive reading guides), graded for completion, to prepare for class. We don't expect you to understand all concepts or examples before class. We just expect that you complete the reading assignment, interact with the NotebookLM reading guide in a meaningful way, and bring questions to class.
+-   Completing 75%-89.99% of reading guides will result in a Q2 score.
 
-Based on cadet feedback from past semesters, we have removed daily GPsets (group problem sets) and several other completion-based assignments from the course. We've also reformatted and streamlined homework assignments to better prepare students for GRs.
+-   Completing 60%-74.99% of reading guides will result in a Q3 score.
 
-This course is a 3-credit hour course. The expectation for all 3-credit hour courses is for every one hour class session, you should spend 2 hours outside of class working on that course. If you have DataSci 220 on a Monday, Wednesday, Friday in a given week, that means you should expect to spend \~6 hours outside class on the course that week.
+-   Completing fewer than 60% of reading guides will result in a CBA score.
 
-### **Non-math penalties / grading for terminology**
+### Homework Assignments
 
-We did get feedback that some students compared answers on GR questions last semester and felt like the same answer resulted in different scores for different cadets. Apparent discrepancies in grades were almost always the result of correct/incorrect terminology or more/less effective communication in cadet answers.
+There will be 9 homework assignments throughout the semester, with 2-3 assigned during each block of the course. Each homework assignment will consist of an online Concept Check and a hand-written Core Competencies component. HW9 will consist of only an online Concept Check.
 
-This is not a pass/fail class and we don't expect you to know all the concepts verbatim. That being said, communication is very important in statistics. Much of the GRs are focused on concepts and communication rather than calculations or code. To master a certain core competency standard, you need to be able to correctly implement and communicate about a particular topic. Also, there are three things we expect you to know "word-for-word" in this class by the end of the semester, but we'll footstomp those A LOT so you know what to expect.
+Homework for each block will total to 100 pts, with 60 pts attributed to the Concept Checks and 40 pts attributed to the Core Competencies workout problems. The breakdown of HW assignments by block is shown below.
 
-### **Comparisons to old versions of Intro Stats**
+-   Block 1:
 
-The old versions of Math 300, Math 356, and Math 377 covered the same four blocks of content that we'll cover this semester. All three courses used R/RStudio in the Posit Cloud environment, and all three courses emphasized simulation-based inference over more traditional methods like using t- and Z-tables.
+    -   HW1 Concept Check (30 pts), HW1 Core Competencies (20 pts)
 
-This is not a 'harder' version of Math 300 nor is it an 'easier' version of Math 356. This course is a brand new course that combines the populations from Math 300, 356, 377 and BehSci 332 and makes adjustments as appropriate.
+    -   HW2 Concept Check (30 pts), HW2 Core Competencies (20 pts)
 
+-   Block 2:
+
+    -   HW3 Concept Check (30 pts), HW3 Core Competencies (20 pts)
+
+    -   HW4 Concept Check (30 pts), HW4 Core Competencies (20 pts)
+
+-   Block 3:
+
+    -   HW5 Concept Check (30 pts), HW5 Core Competencies (20 pts)
+
+    -   HW6 Concept Check (30 pts), HW6 Core Competencies (20 pts)
+
+-   Block 4:
+
+    -   HW7 Concept Check (20 pts), HW7 Core Competencies (20 pts)
+
+    -   HW8 Concept Check (20 pts), HW8 Core Competencies (20 pts)
+
+    -   HW9 Concept Check (20 pts)
+
+The four standards correspond to the each block of homework. The cutlines for HW proficiency levels are provided below.
+
+-   Earning a total of 80/100 pts (80%) or higher on the block homework will result in a Q1 score for the respective standard.
+
+-   Earning a total of 60/100 pts (60%) or higher on the block homework will result in a Q2 score.
+
+-   Earning a total of 40/100 pts (40%) or higher on the block homework will result in a Q3 score.
+
+-   Earning fewer than 40/100 total pts on the block homework will result in a CBA score.
+:::
+
+::: {.callout-tip collapse="true" icon="false"}
 ### **Is this a new way of teaching/grading?**
 
 This is not a new way of teaching or grading. The field of statistics education has been moving toward simulation-based statistics and emphasizing the use of technology and data in introductory statistics courses for the last 15 years.
 
 Standards-based grading is not used widely at USAFA, but it has been mainstream in higher education for more than 10 years and there is extensive research about its benefits for students.
+:::
 
- 
-
-## **Course Organization and Structure**
+::: {.callout-note collapse="true" icon="false"}
+## Course Organization and Structure
 
 > Students reported the course being "unorganized and ran confusingly". There's concern about managing "so many platforms (Posit Cloud, R, NotebookLM, GenAI, Teams, Blackboard, GradeScope)". Questions were raised about how to "study for a GR / Final and finding resources to study from".
 
@@ -150,10 +183,36 @@ We will only use Blackboard for submitting prog and final grades, so you do not 
 ### **Studying for GRs**
 
 We're confident that past GR questions are available to you in the Cadet Wing, so those problems are a good resource to study for GRs. The Core Competency component of the homework assignments consists of past GR questions. Additionally, we encourage the use of GenAI tools to create your own practice problems/examples when studying for GRs. You should provide an example problem wherever possible, but GenAI tools can personalize practice problems based on the lesson or course learning objectives, the core competency standards descriptions, or your own interests.
+:::
 
- 
+::: {.callout-tip collapse="true" icon="false"}
+## Workload and Difficulty of the Course
 
-## **Technology and Tools (Coding/AI)**
+> While some heard the course was "not too bad", a significant number of students heard the course is "very interesting and challenging" and "relatively difficult" with a "heavy course load". Students expressed concern about "how much time outside of school this class will take up" and its overall workload. Additionally, one student wrote "I have heard that this classes medal system (or Q system), while less punishing, is way more time consuming than points based."
+
+### **Daily Battle Rhythm of the course**
+
+We are asking you to complete daily pre-flights (interactive reading guides), graded for completion, to prepare for class. We don't expect you to understand all concepts or examples before class. We just expect that you complete the reading assignment, interact with the NotebookLM reading guide in a meaningful way, and bring questions to class.
+
+**Based on cadet feedback from past semesters, we have removed daily GPsets (group problem sets) and several other completion-based assignments from the course. We've also reformatted and streamlined homework assignments to better prepare students for GRs.**
+
+This course is a 3-credit hour course. The expectation for all 3-credit hour courses is for every one hour class session, you should spend 2 hours outside of class working on that course. If you have DataSci 220 on a Monday, Wednesday, Friday in a given week, that means you should expect to spend \~6 hours outside class on the course that week.
+
+### **Non-math penalties / grading for terminology**
+
+We did get feedback that some students compared answers on GR questions last semester and felt like the same answer resulted in different scores for different cadets. Apparent discrepancies in grades were almost always the result of correct/incorrect terminology or more/less effective communication in cadet answers.
+
+This is not a pass/fail class and we don't expect you to know all the concepts verbatim. That being said, communication is very important in statistics. Much of the GRs are focused on concepts and communication rather than calculations or code. To master a certain core competency standard, you need to be able to correctly implement and communicate about a particular topic. Also, there are three things we expect you to know "word-for-word" in this class by the end of the semester, but we'll footstomp those A LOT so you know what to expect.
+
+### **Comparisons to old versions of Intro Stats**
+
+The old versions of Math 300, Math 356, and Math 377 covered the same four blocks of content that we'll cover this semester. All three courses used R/RStudio in the Posit Cloud environment, and all three courses emphasized simulation-based inference over more traditional methods like using t- and Z-tables.
+
+This is not a 'harder' version of Math 300 nor is it an 'easier' version of Math 356. This course is a brand new course that combines the populations from Math 300, 356, 377 and BehSci 332 and makes adjustments as appropriate.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Technology and Tools (Coding / AI)
 
 > A common theme is the integration of coding and artificial intelligence. Students are concerned about "working with some artificial intelligence that may be unfamiliar" and that there is "a lot of coding involved". Many expressed discomfort with or a "difficult" learning curve for RStudio, as they "have not used it before this class" or needed to remember how to use it.
 
@@ -186,13 +245,14 @@ We recommend the following when prompting GenAI for practice problems. A strong 
 Some students have said "I am concerned with documentation because it is really lengthy and I fear I could make a mistake and miss something." Please be assured that we approach GenAI usage and documentation as skills that you need to develop. We aim to help you grow in the responsible and proficient use of GenAI tools this semester. And we provide clear guidance and examples of proper documentation!
 
 Also, remember that if your instructor suspects you utilized GenAI tools without co-creating or with insufficient documentation, they will meet with you first to discuss and find ways to improve your usage and/or documentation. You may be asked to redo any graded work as deemed appropriate by your instructor and/or the course director. If there are recurrent issues related to GenAI usage or documentation, it may result in initiation of the honor process and/or an academic penalty.
+:::
 
- 
-
-## **Concern from Math 377 students**
+::: {.callout-tip collapse="true" icon="false"}
+## Concern from Data Science/Math/Ops Research Majors
 
 > A significant concern among past students in the experimental class is that they wouldn't be "as prepared for \[Math\] 378" in terms of "the level of difficulty of using the content," even if "the content is pretty much the same". Math 377 students are "hoping to still get the same information as we would have if we had taken the regular course while also learning about it in a more manageable format" in the experimental class.
 
 The DataSci 220 course will fulfill the core requirement for statistical reasoning that was previously filled by Math 300/356/377 or BehSci 332. It will also count as the prerequisite for Math 378 Applied Statistical Modeling, for any students required to take or interested in taking that course. We can assure you that this course will prepare you for Math 378 - Dr. Hitt and Dr. Hauschild-Eastman have been the course director of Math 377/378 for the past five years, so you're in good hands!
 
 The primary difference between Math 377 and this course is that we've removed some of the advanced probability topics. These topics are not necessary for Math 378 and many statisticians don't see those topics until graduate school. Some of these advanced probability topics will be available to you as one of four specialties that you will choose as part of the Application standards. All DF departments are aware of this change, and we are working with some of them to prepare major-specific specialties in the DataSci 220 course.
+:::
