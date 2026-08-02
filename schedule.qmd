@@ -20,7 +20,13 @@ The assigned readings can be accessed via the links below or in the Course Lette
 -   **Bradley Warner, Brianna Hitt, and Ken Horton**. *Computational Probability and Statistics*. Free e-book available at [https://ds-usafa.github.io/Quarto-Book/](https://ds-usafa.github.io/Quarto-Book/){.uri target="_blank"}.
 :::
 
- 
+::: {.callout-tip collapse="true" icon="false"}
+## Fall Calendar with Course Assignments
+
+To view the graded events for this course, overlaid on the Fall 2026 academic calendar, click [here](DS220_Fall2026_Calendar.pdf).
+:::
+
+&nbsp;
 
 ## Block 1: Probability Models
 
