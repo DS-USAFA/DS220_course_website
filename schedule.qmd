@@ -23,10 +23,10 @@ The assigned readings can be accessed via the links below or in the Course Lette
 ::: {.callout-tip collapse="true" icon="false"}
 ## Fall Calendar with Course Assignments
 
-To view the graded events for this course, overlaid on the Fall 2026 academic calendar, click [here](DS220_Fall2026_Calendar.pdf).
+To view the graded events for this course, overlaid on the Fall 2026 academic calendar, click [here](DS220_Fall2026_Calendar.pdf){target="_blank"}.
 :::
 
-&nbsp;
+ 
 
 ## Block 1: Probability Models
 
@@ -49,7 +49,7 @@ To view the graded events for this course, overlaid on the Fall 2026 academic ca
 +--------+-----------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------+
 | 4      | Discrete Random Variables               | -   READ:                                                                                                                                                                                                                                               | -   HW1 Concept Check           |
 |        |                                         |                                                                                                                                                                                                                                                         | -   HW1 Core Competencies       |
-|        |                                         |     -   Section 10.2 Random variables (Intro through 10.2.4), [*Computational Probability and Statistics*](https://ds-usafa.github.io/Quarto-Book/Discrete-Random-Variables.html){target="_blank"}                                                      |                                 |
+|        |                                         |     -   [Section 10.2 Random variables (Intro through 10.2.4)](https://ds-usafa.github.io/Quarto-Book/Discrete-Random-Variables.html){target="_blank"}, *Computational Probability and Statistics*                                                      |                                 |
 |        |                                         |                                                                                                                                                                                                                                                         |                                 |
 |        |                                         |     -   Section 3.4 (Intro through 3.4.2) Random Variables, *OpenIntro Statistics*                                                                                                                                                                      |                                 |
 |        |                                         |                                                                                                                                                                                                                                                         |                                 |
@@ -57,7 +57,7 @@ To view the graded events for this course, overlaid on the Fall 2026 academic ca
 +--------+-----------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------+
 | 5      | Continuous Random Variables             | -   READ:                                                                                                                                                                                                                                               |                                 |
 |        |                                         |                                                                                                                                                                                                                                                         |                                 |
-|        |                                         |     -   Section 11.2 Continuous random variables (Intro through 11.2.2) and 11.3 Moments, [*Computational Probability and Statistics*](https://ds-usafa.github.io/Quarto-Book/Continuous-Random-Variables.html){target="_blank"}                        |                                 |
+|        |                                         |     -   [Section 11.2 Continuous random variables (Intro through 11.2.2) and 11.3 Moments](https://ds-usafa.github.io/Quarto-Book/Continuous-Random-Variables.html){target="_blank"}, *Computational Probability and Statistics*                        |                                 |
 |        |                                         |                                                                                                                                                                                                                                                         |                                 |
 |        |                                         |     -   Section 3.5 Continuous distributions, *OpenIntro Statistics*                                                                                                                                                                                    |                                 |
 |        |                                         |                                                                                                                                                                                                                                                         |                                 |

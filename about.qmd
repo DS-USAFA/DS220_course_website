@@ -76,7 +76,7 @@ In addition to assigned course readings and activities, we will utilize Generati
 
 -   Make sure you can see the DataSci 220 course in Gradescope.
 
--   Create an account for Gemini Notebook (NotebookLM) and any other GenAI tools you plan to use in this course.
+-   Create an account for Gemini Notebook (NotebookLM) and any other GenAI tools you plan to use in this course. **You MUST have an account for NotebookLM and any other GenAI tools you decide to use in this course, as you will be required to provide transcript links as part of your documentation of GenAI usage.**
 
 ### Daily Course Rhythm
 
