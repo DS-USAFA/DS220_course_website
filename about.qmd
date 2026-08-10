@@ -72,7 +72,11 @@ In addition to assigned course readings and activities, we will utilize Generati
 
 **Install/Setup:** Prior to the start of class, please complete the following:
 
--   Joint the "DS220 Fall26" workspace on Posit Cloud and create a paid account.
+-   Join the "DS220 Fall26" workspace on Posit Cloud and create a paid account.
+
+    -   Create a Cloud Student account using your afacademy.af.edu email address, using this link: [https://posit.cloud/plans/student](https://posit.cloud/plans/student){target="_blank"}
+
+    -   Then click [this link](https://posit.cloud/spaces/801110/join?access_code=ohtwCvuetrvewBEEe1lPDxxhjn8xeAGxDmpHcK4Y){target="_blank"} to join the "DS220 Fall26" workspace. You'll be prompted to log in again to access the workspace.
 
 -   Make sure you can see the DataSci 220 course in Gradescope.
 
