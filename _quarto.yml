@@ -16,9 +16,12 @@ website:
       - href: schedule.qmd
         text: Course schedule
       - href: course_project.qmd
-        text: Course project
+        text: Group Project
+      - href: specialties.qmd
+        text: Specialty Concepts
       - href: faqs.qmd
         text: FAQs
+
     tools:
       - icon: github
         menu: 

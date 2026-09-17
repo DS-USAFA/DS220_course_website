@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Course Schedule – Data-Driven Statistics with AI</title>
+<title>Specialty Concepts – Data-Driven Statistics with AI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -98,20 +127,20 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About this course</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./schedule.html" aria-current="page"> 
+    <a class="nav-link" href="./schedule.html"> 
 <span class="menu-text">Course schedule</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./course_project.html"> 
-<span class="menu-text">Course project</span></a>
+<span class="menu-text">Group Project</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./specialties.html" aria-current="page"> 
+<span class="menu-text">Specialty Concepts</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./faqs.html"> 
 <span class="menu-text">FAQs</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./specialties.html"> 
-<span class="menu-text">Specialty Concepts</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -144,10 +173,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#block-1-probability-models" id="toc-block-1-probability-models" class="nav-link active" data-scroll-target="#block-1-probability-models">Block 1: Probability Models</a></li>
-  <li><a href="#block-2-understanding-data" id="toc-block-2-understanding-data" class="nav-link" data-scroll-target="#block-2-understanding-data">Block 2: Understanding Data</a></li>
-  <li><a href="#block-3-statistical-inference" id="toc-block-3-statistical-inference" class="nav-link" data-scroll-target="#block-3-statistical-inference">Block 3: Statistical Inference</a></li>
-  <li><a href="#block-4-linear-regression-and-the-central-limit-theorem" id="toc-block-4-linear-regression-and-the-central-limit-theorem" class="nav-link" data-scroll-target="#block-4-linear-regression-and-the-central-limit-theorem">Block 4: Linear Regression and the Central Limit Theorem</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#choosing-a-specialty-concept" id="toc-choosing-a-specialty-concept" class="nav-link" data-scroll-target="#choosing-a-specialty-concept">Choosing a Specialty Concept</a></li>
+  <li><a href="#authorized-resources" id="toc-authorized-resources" class="nav-link" data-scroll-target="#authorized-resources">Authorized Resources</a></li>
+  <li><a href="#due-dates" id="toc-due-dates" class="nav-link" data-scroll-target="#due-dates">Due Dates</a></li>
+  <li><a href="#submitting-the-assignment" id="toc-submitting-the-assignment" class="nav-link" data-scroll-target="#submitting-the-assignment">Submitting the Assignment</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -156,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Course Schedule</h1>
+<h1 class="title">Specialty Concepts</h1>
 </div>
 
 
@@ -173,388 +205,154 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This page includes the course schedule for the Fall 2026 semester, along with all the assigned readings and graded events.</p>
-<div class="callout callout-style-default callout-note callout-titled">
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>This semester, you will be asked to select one statistical specialty from the following:</p>
+<ul>
+<li><p>Communication and Visualization</p></li>
+<li><p>Mathematical Foundations</p></li>
+<li><p>Computational Methods</p></li>
+<li><p>Statistical Extensions</p></li>
+</ul>
+<p>Each of these four specialties have two standards associated with them. You will <del>complete a reading guide</del> be given a reading guide as a learning resource and you will complete one assignment for each standard in your chosen specialty.</p>
+<p>You will read the descriptions and learning objectives for each standard. Then, complete the assigned readings and all assigned problems for each standard. Each standard is written to be about the length of one homework assignment.</p>
+<p><em>Note: You must complete BOTH standards for the same specialty concept.</em></p>
+<div class="callout callout-style-default callout-important no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
-<i class="callout-icon"></i>
+<i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Accessing the Assigned Readings
+<strong>Why do we have to do a Specialty Concept? What’s the purpose?</strong>
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>The assigned readings can be accessed via the links below or in the Course Letter.</p>
-<p><em>OpenIntro Statistics</em>&nbsp;and <em>Introduction to Modern Statistics</em> are both available as a free e-book. The readings for this course will come from four digitally available textbooks, from the links in the course letter, also provided below:</p>
-<ul>
-<li><p><strong>David Diez,</strong> <strong>Mine Cetinkaya-Rundel, and Christopher D. Barr.</strong> OpenIntro Statistics, 4<sup>th</sup> Edition. Free PDF available at <a href="https://openintro.org/book/os/" target="_blank">https://openintro.org/book/os/.</a></p></li>
-<li><p><strong>Mine Cetinkaya-Rundel and Johanna Hardin</strong>. <em>Introduction to Modern Statistics</em>, 2<sup>nd</sup> Edition. Free web-native version available at <a href="https://www.openintro-ims.netlify.app" class="uri" target="_blank">https://www.openintro-ims.netlify.app</a> (may not work on MissionNet).</p></li>
-<li><p><strong>Chester Ismay, Albert Y. Kim, and Arturo Valdivia</strong>. <em>Modern Dive (v2).</em> Free e-book available at <a href="https://moderndive.com/v2/" class="uri" target="_blank">https://moderndive.com/v2/</a>.</p></li>
-<li><p><strong>Bradley Warner, Brianna Hitt, and Ken Horton</strong>. <em>Computational Probability and Statistics</em>. Free e-book available at <a href="https://ds-usafa.github.io/Quarto-Book/" class="uri" target="_blank">https://ds-usafa.github.io/Quarto-Book/</a>.</p></li>
-</ul>
+<p>These Specialty Concepts serve two purposes:</p>
+<ol type="1">
+<li>To provide greater depth in topics/areas we don’t have time to cover in class</li>
+<li>To align content with the personal interests of cadets and/or specific needs of a major program</li>
+</ol>
+<p>When the Curriculum Committee asked us to combine Math 300 (intro statistics for humanities and social sciences majors), Math 356 (intro statistics for engineers and scientists), Math 377 (intro statistics for mathematical sciences majors), and BehSci 332 (intro statistics for behavioral sciences majors), some content was lost. We lost a little bit of the emphasis and practice with communication from Math 300 and BehSci 332 and we lost some of the mathematical details and coding practice from Math 356 and Math 377. These Specialty Concepts provide some of that depth, allowing cadets to independently learn and apply material in four different areas.</p>
+<p>These Specialty Concepts also allow cadets to choose one of four specialties to align with their personal interests and/or to supplement the specific needs of a major program. For example, some majors might want their cadets to gain more experience with derivations and methods related to probability distributions or traditional statistical methods. That material isn’t necessarily helpful to all cadets in the course, but the specialties allow some cadets to grow in those areas while others can develop their communication or coding skills.</p>
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<section id="choosing-a-specialty-concept" class="level2">
+<h2 class="anchored" data-anchor-id="choosing-a-specialty-concept">Choosing a Specialty Concept</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Not sure which Specialty Concept to choose?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Consider taking the <a href="https://www.gradescope.com/courses/1337183/assignments/8586024/submissions/new">Specialty Concepts Personality Quiz (OPTIONAL)</a> in Gradescope to help decide which specialty is right for you.</p>
+</div>
+</div>
+<p>The description of each Specialty Concept is provided below. There are two standards included in each specialty:</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Fall Calendar with Course Assignments
+<strong>Communication and Visualization</strong>
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>To view the graded events for this course, overlaid on the Fall 2026 academic calendar, click <a href="DS220_Fall2026_Calendar.pdf" target="_blank">here</a>.</p>
-</div>
-</div>
-</div>
-<p>&nbsp;</p>
-<section id="block-1-probability-models" class="level2">
-<h2 class="anchored" data-anchor-id="block-1-probability-models">Block 1: Probability Models</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Lesson</th>
-<th>Topic</th>
-<th>BEFORE Class</th>
-<th>Graded Events (due dates)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Intro to Data Science and Generative AI</td>
-<td><ul>
-<li><a href="https://notebook.google.com/notebook/6a7fdd3b-38a3-48c7-91df-5603bfd2a629" target="_blank">Practice Notebook for Lesson 1</a></li>
-</ul></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Intro to Probability</td>
-<td><ul>
-<li><p>READ:</p>
-<ul>
-<li>Section 3.1 Defining Probability, <em>OpenIntro Statistics</em></li>
-</ul></li>
-<li><p><a href="https://notebooklm.google.com/notebook/3233b224-a086-4aeb-8bb5-1412444f7ee9" target="_blank">Reading Guide for Lesson 2</a></p></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>Conditional Probability, Bayes’ Rule</td>
-<td><ul>
-<li><p>READ:</p>
-<ul>
-<li>Section 3.2 Conditional Probability, <em>OpenIntro Statistics</em></li>
-</ul></li>
-<li><p><a href="https://notebooklm.google.com/notebook/06a6c546-6916-40cb-a710-a469f0842121" target="_blank">Reading Guide for Lesson 3</a></p></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td><ul>
-<li>Pre-course AI Questionnaire</li>
-<li>Group Preferences Form</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Discrete Random Variables</td>
-<td><ul>
-<li><p>READ:</p>
-<ul>
-<li><p><a href="https://ds-usafa.github.io/Quarto-Book/Discrete-Random-Variables.html" target="_blank">Section 10.2 Random variables (Intro through 10.2.4)</a>, <em>Computational Probability and Statistics</em></p></li>
-<li><p>Section 3.4 (Intro through 3.4.2) Random Variables, <em>OpenIntro Statistics</em></p></li>
-</ul></li>
-<li><p><a href="https://notebooklm.google.com/notebook/08abf03d-1d2d-4f78-9447-7c1d115dbf69" target="_blank">Reading Guide for Lesson 4</a></p></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td><ul>
-<li>HW1 Concept Check</li>
-<li>HW1 Core Competencies</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Continuous Random Variables</td>
-<td><ul>
-<li><p>READ:</p>
-<ul>
-<li><p><a href="https://ds-usafa.github.io/Quarto-Book/Continuous-Random-Variables.html" target="_blank">Section 11.2 Continuous random variables (Intro through 11.2.2) and 11.3 Moments</a>, <em>Computational Probability and Statistics</em></p></li>
-<li><p>Section 3.5 Continuous distributions, <em>OpenIntro Statistics</em></p></li>
-</ul></li>
-<li><p><a href="https://notebooklm.google.com/notebook/c18d08c7-f192-4790-96ec-fd32137e30e8" target="_blank">Reading Guide for Lesson 5</a></p></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>Discrete Named Distributions</td>
-<td><ul>
-<li><p>READ: Sections 4.2 Geometric distribution, 4.3 Binomial distribution (through 4.3.1), and 4.5 Poisson distribution, <em>OpenIntro Statistics</em></p></li>
-<li><p><a href="https://notebooklm.google.com/notebook/5aeb5c88-de9a-435b-b93f-4d3a6481e74c" target="_blank">Reading Guide for Lesson 6</a></p></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td><ul>
-<li>Project Individual Task #1</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Continuous Named Distributions</td>
-<td><ul>
-<li><p>READ:</p>
-<ul>
-<li><p>Section 4.1 Normal Distribution, <em>OpenIntro Statistics</em></p></li>
-<li><p><a href="https://ds-usafa.github.io/Quarto-Book/Named-Continuous-Distributions.html#exponential-distribution" target="_blank">Section 13.2.1 Uniform distribution and 13.2.2 Exponential distribution</a> from <em>Computational Probability and Statistics</em></p></li>
-</ul></li>
-<li><p><a href="https://notebooklm.google.com/notebook/3e74f22c-0af6-4afe-b5e7-d771b0a01990" target="_blank">Reading Guide for Lesson 7</a></p></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td><ul>
-<li>HW2 Concept Check</li>
-<li>HW2 Core Competencies</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-</section>
-<section id="block-2-understanding-data" class="level2">
-<h2 class="anchored" data-anchor-id="block-2-understanding-data">Block 2: Understanding Data</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Lesson</th>
-<th>Topic</th>
-<th>BEFORE Class</th>
-<th>Graded Events (due dates)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>8</td>
-<td>Data Basics</td>
-<td><ul>
-<li><p>READ:</p>
-<ul>
-<li><p>Chapter 1 Hello data from <em>Introduction to Modern Stats</em> <em>(2e)</em></p></li>
-<li><p>Chapter 5 Exploring numerical data from <em>Introduction to Modern Stats</em> <em>(2e)</em></p></li>
-<li><p><strong><em>Note: You may not be able to access the web-native version of Intro to Modern Stats (2nd edition) on MissionNet WiFi. Please use the provided PDF of the textbook (in Teams) or refer to the PDF of the assigned reading in NotebookLM.</em></strong></p></li>
-</ul></li>
-<li><p><a href="https://notebooklm.google.com/notebook/6f92eaad-f39d-44fa-802a-fc4496e533ea" target="_blank">Reading Guide for Lesson 8</a></p></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>GR1</td>
-<td><p>Study! Practice!</p>
-<ul>
-<li><a href="https://notebook.google.com/notebook/8187bc92-1afc-472d-8448-d1c29558174b" target="_blank"><strong>Block 1 NotebookLM Study Guide</strong></a></li>
-<li>GR1 will take place on Friday 28 August (M9) during the common GR time, starting at 0630</li>
-<li>There will be no regular class on M9/T9</li>
-</ul></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>Data Collection and Studies</td>
-<td><ul>
-<li><p>READ:</p>
-<ul>
-<li>Chapter 2 Study design from <em>Introduction to Modern Stats (2e)</em></li>
-</ul></li>
-<li><p><a href="https://notebooklm.google.com/notebook/725f1277-edc9-4935-800d-01e8d6eb4b25" target="_blank">Reading Guide for Lesson 10</a></p></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td><ul>
-<li>Project Group Task #1</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>Tidy Data</td>
-<td><ul>
-<li><p>READ:</p>
-<ul>
-<li><a href="https://moderndive.com/v2/tidy.html">Chapter 4 Data Importing and Tidy Data</a> from <em>Modern Dive</em></li>
-</ul></li>
-<li><p><a href="https://notebooklm.google.com/notebook/c15d1e56-d2a1-42f9-9cc3-174b52c7ebe6" target="_blank">Reading Guide for Lesson 11</a></p></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>12</td>
-<td>Data Wrangling</td>
-<td><ul>
-<li><p>READ:</p>
-<ul>
-<li><a href="https://moderndive.com/v2/wrangling.html" target="_blank">Chapter 3 Data Wrangling</a> from <em>Modern Dive</em></li>
-</ul></li>
-<li><p><a href="https://notebooklm.google.com/notebook/f3226153-1b7b-4766-af0f-bd472099e7fb" target="_blank">Reading Guide for Lesson 12</a></p></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td><ul>
-<li>HW3 Concept Check</li>
-<li>HW3 Core Competencies</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>13</td>
-<td>Numerical Summaries</td>
-<td><ul>
-<li><p>READ:</p>
-<ul>
-<li>Chapter 5 Exploring Numerical Data from <em>Introduction to Modern Statistics</em> - beginning through Section 5.6</li>
-</ul></li>
-<li><p><a href="https://notebooklm.google.com/notebook/71ff8b24-dce4-48e0-8ada-a497edc42929" target="_blank">Reading Guide for Lesson 13</a></p></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>14</td>
-<td>Five Named Graphs / Data Visualization in 2D</td>
-<td><ul>
-<li><p>READ:</p>
-<ul>
-<li><a href="https://moderndive.com/v2/viz.html" target="_blank">Chapter 2 Data Visualization</a> from <em>Modern Dive</em></li>
-</ul></li>
-<li><p>REVIEW (from Lesson 13):</p>
-<ul>
-<li>Chapter 5 Exploring Numerical Data from <em>Introduction to Modern Statistics</em> - beginning through Section 5.6</li>
-</ul></li>
-<li><p><a href="https://notebooklm.google.com/notebook/1b0e9821-3ed8-4e1c-8394-e6a0160d2cd5" target="_blank">Reading Guide for Lesson 14</a></p></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td><ul>
-<li>Project Individual Task #2</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>15</td>
-<td>Data Visualization in 1D / Centrality and Spread</td>
-<td><ul>
-<li><p>READ:</p>
-<ul>
-<li><p>Chapter 4 Exploring Categorical Data from <em>Introduction to Modern Statistics</em></p></li>
-<li><p>Chapter 6 Applications: Explore from <em>Introduction to Modern Statistics</em></p></li>
-</ul></li>
-<li><p>RESEARCH:</p>
-<ul>
-<li><p>Find examples of news articles, social media headlines, briefings, or official USAFA or CW communication where statistics “pop” up. Is there a moment when you suspect the communication is referring to a mean or a median? Are there references to “spread”? If so, what kind? What data visualizations did you encounter?</p>
-<ul>
-<li><p>Look for examples of/references to measures of centrality in a news article, social media post, briefing, or official USAFA communication.</p></li>
-<li><p>Look for examples of/references to measures of spread in a news article, social media post, briefing, or official USAFA communication.</p></li>
-<li><p>Look for data visualizations in a news article, social media post, briefing, or official USAFA communication.</p></li>
-</ul></li>
-</ul></li>
-<li><p><a href="https://notebook.google.com/notebook/fa27fb9c-ff7c-434f-a54f-b1d1a1515346" target="_blank">Reading Guide for Lesson 15</a></p></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td><ul>
-<li>HW4 Concept Check</li>
-<li>HW4 Core Competencies</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>16</td>
-<td>Data Provenance / History of Statistics</td>
-<td><ul>
-<li><p>READ three things (see below for options):</p>
+<p>This specialty is especially appropriate for students who are interested in communicating statistical ideas clearly to non-technical audiences, evaluating how statistics are presented in media or research, and improving the effectiveness of data visualizations. It extends the course by emphasizing critique, interpretation, and communication of statistical information in real-world contexts.</p>
 <ol type="1">
-<li><p><strong>Read the following article:</strong> Azar, B. (2010, May 1). Are your findings ‘WEIRD’? <em>Monitor on Psychology</em>, <em>41</em>(5). <a href="https://www.apa.org/monitor/2010/05/weird" class="uri">https://www.apa.org/monitor/2010/05/weird</a> (~2 minute read)</p>
-<ul>
-<li>OPTIONAL: Original study can be found here: Henrich J, Heine SJ, Norenzayan A. The weirdest people in the world? <em>Behavioral and Brain Sciences</em>. 2010;33(2-3):61-83. <a href="https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/weirdest-people-in-the-world/BF84F7517D56AFF7B7EB58411A554C17">doi:10.1017/S0140525X0999152X</a></li>
-</ul>
-<p>AND</p></li>
-<li><p><strong>Choose ONE of the following to watch</strong>. Feel free to watch on a faster speed, but please engage with the material in a meaningful way:</p>
-<ul>
-<li><p><a href="https://www.youtube.com/watch?v=_2u_eHHzRto" target="_blank">TED Talk</a> by Cathy O’Neil, “The era of blind faith in big data must end”:</p></li>
-<li><p>Introduction to the “Gender Shades” <a href="https://www.youtube.com/watch?v=TWWsW1w-BVo" target="_blank">study</a></p>
-<ul>
-<li>Associated <a href="https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf">paper</a> for those interested</li>
-</ul></li>
-<li><p><a href="https://youtu.be/Z7-DjqgO2ws?si=xcruOh4bqS5ouCv9" title="https://youtu.be/z7-djqgo2ws?si=xcruoh4bqs5oucv9">Gender Bias in AI and Machine Learning Systems</a> by Jeff Galak</p></li>
-<li><p><a href="https://youtu.be/1fn0TaPnF5E?si=csLtMIZK0fQafNGK" title="https://youtu.be/1fn0tapnf5e?si=csltmizk0fqafngk">Summary video</a> of the “Man is to Computer Programmer as Woman is to Homemaker” study (watch beginning to 4:40) (associated <a href="https://proceedings.neurips.cc/paper_files/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf" title="https://proceedings.neurips.cc/paper_files/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-paper.pdf">paper</a> for those interested)</p></li>
-</ul>
-<p>AND</p></li>
-<li><p><strong>Choose ONE of the following to read</strong>. We know some of these are a bit long, but please engage with the material in a meaningful way! Feel free to utilize NotebookLM/ChatGPT for help in reading one of these articles:</p>
-<ul>
-<li><p>Kennedy-Shaffer, L. 2025. “Statistics and eugenics: How the past will shape the future.” 16 September 2025. <em>The Psychologist.</em> <a href="https://www.bps.org.uk/psychologist/statistics-and-eugenics-how-past-will-shape-future" class="uri">https://www.bps.org.uk/psychologist/statistics-and-eugenics-how-past-will-shape-future</a></p></li>
-<li><p>Evans, Richard J. 2020. “RA Fisher and the Science of Hatred.” 28 July 2020. <em>New Statesman</em>. <a href="https://www.newstatesman.com/long-reads/2020/07/ra-fisher-and-science-hatred" class="uri">https://www.newstatesman.com/long-reads/2020/07/ra-fisher-and-science-hatred</a>.</p></li>
-<li><p>Langkjaer-Bain, Robert. 2019. “The Troubling Legacy of Francis Galton.” June 2019. <em>Significance</em>. <a href="https://doi.org/10.1111/j.1740-9713.2019.01275.x" class="uri">https://doi.org/10.1111/j.1740-9713.2019.01275.x</a>.</p></li>
-</ul></li>
-</ol></li>
-<li><p>Reading Guide for Lesson 17 (Gradescope only, no NotebookLM)</p>
-<ul>
-<li>PLEASE NOTE: This reading guide asks you to share perspective/insights on the assigned readings.</li>
-</ul></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>17</td>
-<td>GR2</td>
-<td><p>Study! Practice!</p>
-<ul>
-<li><a href="https://notebook.google.com/notebook/9c0bbb0e-1b74-42d7-8a4e-d84fe82ceae5" target="_blank"><strong>Block 2 NotebookLM Study Guide</strong></a></li>
-<li>GR2 will take place on Thursday 24 September (M17) during the common GR time, starting at 0630</li>
-<li>There will be no regular class on M17/T17</li>
-</ul></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
+<li><p>Evaluate the efficacy of data visualizations; Explain and justify what different enhancements contribute to or detract from a visualization; Design and implement visualizations from scratch without starter code, tailored to the intended audience.</p></li>
+<li><p>Critically evaluate the use of statistics in media reports or published studies; Explain any misinterpretations, misleading visualizations, or unsupported claims using appropriate statistical reasoning; Communicate your evaluation clearly to both expert and non-expert audiences.</p></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<strong>Computational Methods</strong>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This specialty is especially appropriate for students who are interested in programming, computational problem solving, or applying statistical methods in languages beyond <code>R</code>. It extends the computational work in this course by asking students to implement familiar statistical methods in a second programming language and compare different computational approaches.</p>
+<ol type="1">
+<li><p>Design and implement simulation-based statistical methods without starter code in both <code>R</code> and a second computational language.</p></li>
+<li><p>Implement hypothesis testing and linear regression in a second computational language (e.g., MATLAB, python, SAS, etc.) and compare the implementation and results to <code>R</code>.</p></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<strong>Mathematical Foundations</strong>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This specialty is especially appropriate for students whose majors or future coursework would benefit from additional exposure to probability theory and mathematical statistics. It extends the course by developing the mathematical foundations underlying random variables, transformations and combinations of random variables, likelihood, and maximum likelihood estimation.</p>
+<ol type="1">
+<li><p>Compute and derive properties of expectation and variance for transformations and linear combinations of random variables; interpret these quantities in relevant contexts.</p></li>
+<li><p>Derive the likelihood function for a given random sample from a distribution; Derive the maximum likelihood estimate of a parameter or set of parameters.</p></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<strong>Statistical Extensions</strong>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This specialty is especially appropriate for students who have previously encountered traditional statistical inference through AP Statistics, another college statistics course, or coursework in their major. It extends the simulation-based methods used in this course to additional classical procedures and more advanced inferential settings. Students selecting this specialty should be prepared to learn and apply some statistical methods before they are formally introduced in the regular course sequence. In particular, specialty assignments may require students to independently review or learn concepts such as traditional hypothesis testing, the Central Limit Theorem, <span class="math inline">\(t\)</span>-based inference, ANOVA, and <span class="math inline">\(\chi^2\)</span> procedures. Prior exposure to statistical inference is therefore helpful, although students should expect to deepen and extend that prior knowledge rather than simply repeat material they have seen before.</p>
+<ol type="1">
+<li><p>Apply traditional <span class="math inline">\(t\)</span>-based inference, including one-sample, two-sample, and paired-sample procedures; compare mathematical model-based and simulation-based approaches and evaluate when each is appropriate.</p></li>
+<li><p>Apply ANOVA and <span class="math inline">\(\chi^2\)</span> procedures to statistical questions involving multiple groups or categorical variables; evaluate assumptions and limitations and justify the choice of method relative to other hypothesis tests.</p></li>
+</ol>
+</div>
+</div>
+</div>
 </section>
-<section id="block-3-statistical-inference" class="level2">
-<h2 class="anchored" data-anchor-id="block-3-statistical-inference">Block 3: Statistical Inference</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Lesson</th>
-<th>Topic</th>
-<th>BEFORE Class</th>
-<th>Graded Events (due dates)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>18</td>
-<td>Sampling Framework</td>
-<td><ul>
-<li><p>READ:</p>
-<ul>
-<li><p><a href="https://ds-usafa.github.io/Quarto-Book/Sampling-Distributions.html" target="_blank">Chapter 19 Sampling Distributions from Computational Probability and Statistics</a></p></li>
-<li><p><a href="https://moderndive.com/v2/sampling.html" target="_blank">Chapter 7 Sampling from <em>Modern Dive</em></a> - skip Section 7.3 but read the rest of the chapter</p></li>
-</ul></li>
-<li><p><a href="https://notebooklm.google.com/notebook/90e79303-bb46-482e-a2fb-a8f5e4c1d320" target="_blank">Reading Guide for Lesson 18</a></p></li>
-<li><p>Submit Reading Guide on Gradescope</p></li>
-</ul></td>
-<td><ul>
-<li>Course Participation Form (Prog)</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
+<section id="authorized-resources" class="level2">
+<h2 class="anchored" data-anchor-id="authorized-resources">Authorized Resources</h2>
+<p>Per the Dean’s Guidance for Academically-related GenAI at USAFA, this assignment is <strong>Level 1: Organizational / Explanatory use of GenAI</strong>. You may use GenAI for personal efficiency (i.e., summarizing notes / readings, clarifying content); however, cadets will create their own, original work without the use of GenAI for submitted answers. This use of GenAI must be clearly documented.</p>
+<p>This is an individual homework assignment and you MUST submit your own work. You MAY NOT copy work from anyone or from a GenAI tool, nor may you give your work to another student to copy. You are welcome and encouraged to work with others, but you need to understand everything that you are submitting. <strong>All resources outside the assigned readings for this assignment must be documented.</strong></p>
 </section>
-<section id="block-4-linear-regression-and-the-central-limit-theorem" class="level2">
-<h2 class="anchored" data-anchor-id="block-4-linear-regression-and-the-central-limit-theorem">Block 4: Linear Regression and the Central Limit Theorem</h2>
+<section id="due-dates" class="level2">
+<h2 class="anchored" data-anchor-id="due-dates">Due Dates</h2>
+<p>Standard #1 is due in Gradescope on Wednesday 14 October (T23) at 2359.</p>
+<p>Standard #2 is due on Gradescope on Monday 16 November (T34) at 2359.</p>
+</section>
+<section id="submitting-the-assignment" class="level2">
+<h2 class="anchored" data-anchor-id="submitting-the-assignment">Submitting the Assignment</h2>
+<p>Use the provided <code>Specialty_Name_Standard1.qmd</code> or <code>Specialty_Name_Standard2.qmd</code> files in Posit Cloud to type up your answers. Complete the problems in the .qmd file showing any work (including images of by-hand calculations and/or code and output) that was used to answer each question.</p>
+<p>Once you have completed the assigned problems, render your assignment as a PDF file and submit to Gradescope.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

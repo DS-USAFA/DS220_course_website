@@ -1,0 +1,102 @@
+---
+title: "Specialty Concepts"
+---
+
+# Introduction
+
+This semester, you will be asked to select one statistical specialty from the following:
+
+-   Communication and Visualization
+
+-   Mathematical Foundations
+
+-   Computational Methods
+
+-   Statistical Extensions
+
+Each of these four specialties have two standards associated with them. You will ~~complete a reading guide~~ be given a reading guide as a learning resource and you will complete one assignment for each standard in your chosen specialty.
+
+You will read the descriptions and learning objectives for each standard. Then, complete the assigned readings and all assigned problems for each standard. Each standard is written to be about the length of one homework assignment.
+
+*Note: You must complete BOTH standards for the same specialty concept.*
+
+::: {.callout-important collapse="true" icon="false"}
+### **Why do we have to do a Specialty Concept? What's the purpose?**
+
+These Specialty Concepts serve two purposes:
+
+1.  To provide greater depth in topics/areas we don't have time to cover in class
+2.  To align content with the personal interests of cadets and/or specific needs of a major program
+
+When the Curriculum Committee asked us to combine Math 300 (intro statistics for humanities and social sciences majors), Math 356 (intro statistics for engineers and scientists), Math 377 (intro statistics for mathematical sciences majors), and BehSci 332 (intro statistics for behavioral sciences majors), some content was lost. We lost a little bit of the emphasis and practice with communication from Math 300 and BehSci 332 and we lost some of the mathematical details and coding practice from Math 356 and Math 377. These Specialty Concepts provide some of that depth, allowing cadets to independently learn and apply material in four different areas.
+
+These Specialty Concepts also allow cadets to choose one of four specialties to align with their personal interests and/or to supplement the specific needs of a major program. For example, some majors might want their cadets to gain more experience with derivations and methods related to probability distributions or traditional statistical methods. That material isn't necessarily helpful to all cadets in the course, but the specialties allow some cadets to grow in those areas while others can develop their communication or coding skills.
+:::
+
+## Choosing a Specialty Concept
+
+::: callout-note
+## Not sure which Specialty Concept to choose?
+
+Consider taking the [Specialty Concepts Personality Quiz (OPTIONAL)](https://www.gradescope.com/courses/1337183/assignments/8586024/submissions/new) in Gradescope to help decide which specialty is right for you.
+:::
+
+The description of each Specialty Concept is provided below. There are two standards included in each specialty:
+
+::: {.callout-note collapse="true" icon="false"}
+### **Communication and Visualization**
+
+This specialty is especially appropriate for students who are interested in communicating statistical ideas clearly to non-technical audiences, evaluating how statistics are presented in media or research, and improving the effectiveness of data visualizations. It extends the course by emphasizing critique, interpretation, and communication of statistical information in real-world contexts.
+
+1.  Evaluate the efficacy of data visualizations; Explain and justify what different enhancements contribute to or detract from a visualization; Design and implement visualizations from scratch without starter code, tailored to the intended audience.
+
+2.  Critically evaluate the use of statistics in media reports or published studies; Explain any misinterpretations, misleading visualizations, or unsupported claims using appropriate statistical reasoning; Communicate your evaluation clearly to both expert and non-expert audiences.
+:::
+
+::: {.callout-tip collapse="true" icon="false"}
+### **Computational Methods**
+
+This specialty is especially appropriate for students who are interested in programming, computational problem solving, or applying statistical methods in languages beyond `R`. It extends the computational work in this course by asking students to implement familiar statistical methods in a second programming language and compare different computational approaches.
+
+1.  Design and implement simulation-based statistical methods without starter code in both `R` and a second computational language.
+
+2.  Implement hypothesis testing and linear regression in a second computational language (e.g., MATLAB, python, SAS, etc.) and compare the implementation and results to `R`.
+:::
+
+::: {.callout-caution collapse="true" icon="false"}
+### **Mathematical Foundations**
+
+This specialty is especially appropriate for students whose majors or future coursework would benefit from additional exposure to probability theory and mathematical statistics. It extends the course by developing the mathematical foundations underlying random variables, transformations and combinations of random variables, likelihood, and maximum likelihood estimation.
+
+1.  Compute and derive properties of expectation and variance for transformations and linear combinations of random variables; interpret these quantities in relevant contexts.
+
+2.  Derive the likelihood function for a given random sample from a distribution; Derive the maximum likelihood estimate of a parameter or set of parameters.
+:::
+
+::: {.callout-warning collapse="true" icon="false"}
+### **Statistical Extensions**
+
+This specialty is especially appropriate for students who have previously encountered traditional statistical inference through AP Statistics, another college statistics course, or coursework in their major. It extends the simulation-based methods used in this course to additional classical procedures and more advanced inferential settings. Students selecting this specialty should be prepared to learn and apply some statistical methods before they are formally introduced in the regular course sequence. In particular, specialty assignments may require students to independently review or learn concepts such as traditional hypothesis testing, the Central Limit Theorem, $t$-based inference, ANOVA, and $\chi^2$ procedures. Prior exposure to statistical inference is therefore helpful, although students should expect to deepen and extend that prior knowledge rather than simply repeat material they have seen before.
+
+1.  Apply traditional $t$-based inference, including one-sample, two-sample, and paired-sample procedures; compare mathematical model-based and simulation-based approaches and evaluate when each is appropriate.
+
+2.  Apply ANOVA and $\chi^2$ procedures to statistical questions involving multiple groups or categorical variables; evaluate assumptions and limitations and justify the choice of method relative to other hypothesis tests.
+:::
+
+## Authorized Resources
+
+Per the Dean's Guidance for Academically-related GenAI at USAFA, this assignment is **Level 1: Organizational / Explanatory use of GenAI**. You may use GenAI for personal efficiency (i.e., summarizing notes / readings, clarifying content); however, cadets will create their own, original work without the use of GenAI for submitted answers. This use of GenAI must be clearly documented.
+
+This is an individual homework assignment and you MUST submit your own work. You MAY NOT copy work from anyone or from a GenAI tool, nor may you give your work to another student to copy. You are welcome and encouraged to work with others, but you need to understand everything that you are submitting. **All resources outside the assigned readings for this assignment must be documented.**
+
+## Due Dates
+
+Standard #1 is due in Gradescope on Wednesday 14 October (T23) at 2359.
+
+Standard #2 is due on Gradescope on Monday 16 November (T34) at 2359.
+
+## Submitting the Assignment
+
+Use the provided `Specialty_Name_Standard1.qmd` or `Specialty_Name_Standard2.qmd` files in Posit Cloud to type up your answers. Complete the problems in the .qmd file showing any work (including images of by-hand calculations and/or code and output) that was used to answer each question.
+
+Once you have completed the assigned problems, render your assignment as a PDF file and submit to Gradescope.

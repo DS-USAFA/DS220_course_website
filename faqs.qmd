@@ -86,7 +86,7 @@ In Spring 2025, 52% of the course (40/77 cadets) earned an A or B. In Fall 2025,
 The grade distribution for the last three semesters are shown below.
 
 |  |  |
-|------------------------------------|------------------------------------|
+|----|----|
 | ![](images/course_grades_spr26.png){width="298"} | ![](images/course_grades_fall25.png){width="267"} |
 | ![](images/course_grades_spr25.png){width="287"} |  |
 
